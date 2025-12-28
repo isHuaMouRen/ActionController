@@ -38,7 +38,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: builds-folder
-          path: /
+          path: .
 
       - name: Sleep
         run: Start-Sleep -Seconds 1800
